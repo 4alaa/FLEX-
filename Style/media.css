@@ -1,0 +1,70 @@
+/* xl */
+@media screen and (max-width:1400px) and (min-width:1200px) {
+
+}
+/* lg */
+@media screen and (max-width:1200px) and (min-width:992px) {
+    
+
+    .home-caption h1
+    {
+        font-size: 40px;
+    }
+    .info-item-1 .aboutInfo p:last-child
+{
+    font-size: 18px;
+    width: 150px;
+}
+  
+
+}
+/* medium */
+@media screen and (max-width:992px) and (min-width:768px) {
+
+   /* start of home */
+.home-caption
+{
+margin-top: 250px;
+}
+.home-caption h1
+{
+    font-size: 40px;
+}
+/* end of home */
+  
+}
+/* small */
+@media screen and (max-width:768px) and (min-width:576px) {
+    
+ /* start of home */
+.home-caption
+{
+text-align: center;
+margin-top: 200px;
+}
+.home-caption h1
+{
+    font-size: 31px;
+}
+.home_captionBtns
+{
+    justify-content: center;
+}
+/* end of home */
+
+}
+/* extra small */
+@media screen and (max-width:576px) {
+/* start of home */
+.home-caption
+{
+text-align: center;
+margin-top: 200px;
+}
+.home-caption h1
+{
+    font-size: 31px;
+}
+
+/* end of home */
+}
